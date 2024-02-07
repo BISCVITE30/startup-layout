@@ -59,7 +59,7 @@
   display: none;
 }
 
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 400px) {
   .top-section {
     width: 1400px;
     padding-top: 39px;
@@ -205,7 +205,7 @@
   color: #3040c4;
 }
 
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 400px) {
   .headline {
     flex-direction: row;
     width: 1140px;
@@ -281,7 +281,7 @@
   font-weight: 700;
 }
 
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 400px) {
   .about {
     width: 1400px;
     display: flex;
@@ -327,7 +327,7 @@
   filter: brightness(0);
 }
 
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 400px) {
   .customers {
     width: 1140px;
     margin: auto;
@@ -421,7 +421,7 @@
   height: 70px;
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 400px) {
   .features {
     display: none;
   }
@@ -474,7 +474,7 @@
   margin-top: 48px;
 }
 
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 400px) {
   .resp-features {
     display: none;
   }
@@ -545,7 +545,7 @@
   color: rgba(43, 41, 45, 0.6);
 }
 
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 400px) {
   .inbox {
     display: flex;
     padding: 0;
@@ -672,7 +672,7 @@
   font-weight: 700;
 }
 
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 400px) {
   .audience {
     padding: 110px 130px;
     display: flex;
@@ -784,7 +784,7 @@
   padding: 0px 15px 50px 15px;
 }
 
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 400px) {
   .communication {
     display: flex;
     flex-direction: column;
@@ -987,7 +987,7 @@
   flex-direction: column;
 }
 
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 400px) {
   .footer {
     width: 1400px;
   }
@@ -1088,7 +1088,7 @@ html {
   width: 100%;
 }
 
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 400px) {
   .page {
     width: 1400px;
     min-height: 100vh;
