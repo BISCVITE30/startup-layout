@@ -20,7 +20,7 @@
   display: inline-block;
   width: 18px;
   height: 13px;
-  background-image: url(../image/menu-icon.png);
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
 }
 
 .top-section {
@@ -59,7 +59,7 @@
   display: none;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 320px) {
   .top-section {
     width: 1400px;
     padding-top: 39px;
@@ -124,7 +124,7 @@
     width: 8px;
     height: 8px;
     display: inline-block;
-    background-image: url(image/Arrow.png);
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
     margin-top: 19px;
     margin-left: 11px;
     margin-right: 56px;
@@ -205,7 +205,7 @@
   color: #3040c4;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 320px) {
   .headline {
     flex-direction: row;
     width: 1140px;
@@ -281,7 +281,7 @@
   font-weight: 700;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 320px) {
   .about {
     width: 1400px;
     display: flex;
@@ -327,7 +327,7 @@
   filter: brightness(0);
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 320px) {
   .customers {
     width: 1140px;
     margin: auto;
@@ -421,7 +421,7 @@
   height: 70px;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 320px) {
   .features {
     display: none;
   }
@@ -474,7 +474,7 @@
   margin-top: 48px;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 320px) {
   .resp-features {
     display: none;
   }
@@ -545,7 +545,7 @@
   color: rgba(43, 41, 45, 0.6);
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 320px) {
   .inbox {
     display: flex;
     padding: 0;
@@ -672,7 +672,7 @@
   font-weight: 700;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 320px) {
   .audience {
     padding: 110px 130px;
     display: flex;
@@ -987,7 +987,7 @@
   flex-direction: column;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 320px) {
   .footer {
     width: 1400px;
   }
@@ -1088,7 +1088,7 @@ html {
   width: 100%;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 320px) {
   .page {
     width: 1400px;
     min-height: 100vh;
