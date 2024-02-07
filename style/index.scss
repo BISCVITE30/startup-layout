@@ -23,7 +23,10 @@ html {
   width: 100%;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 1400px) {
+  html {
+    max-width: 100%;
+  }
   .page {
     width: 1400px;
     min-height: 100vh;
