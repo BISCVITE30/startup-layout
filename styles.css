@@ -492,6 +492,9 @@
   line-height: 34px;
   color: #f1592b;
 }
+.inbox__image {
+  width: 290px;
+}
 .inbox__article__title {
   margin: 0;
   margin-top: 17px;
@@ -657,12 +660,12 @@
   text-align: center;
   padding-top: 22px;
   padding-bottom: 33px;
+  cursor: pointer;
 }
-.audience__user-card_selected {
+.audience__user-card:hover {
   background-color: #3141c5;
   box-shadow: 0px 13px 11px 0px rgba(0, 0, 0, 0.15);
   color: #fff;
-  cursor: pointer;
 }
 .audience__user-card__text {
   margin: 0;
@@ -756,6 +759,9 @@
 }
 .communication__description {
   padding: 50px 15px 0px 15px;
+}
+.communication__image {
+  width: 290px;
 }
 .communication__image-text {
   margin: 0;
