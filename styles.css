@@ -210,6 +210,7 @@
     flex-direction: row;
     width: 1140px;
     margin: auto;
+    padding-top: 76px;
     padding-bottom: 77px;
   }
   .headline__content {
@@ -224,7 +225,6 @@
     width: 754px;
     height: 165px;
     margin: 0;
-    margin-top: 76px;
     font-size: 80px;
     line-height: 78px;
     letter-spacing: -0.5px;
@@ -236,8 +236,8 @@
     height: 102px;
   }
   .headline__banner {
+    margin: 0;
     margin-left: auto;
-    margin-top: 84px;
     right: -105px;
   }
   .action__buttons {
