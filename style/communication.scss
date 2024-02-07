@@ -1,0 +1,136 @@
+.communication {
+  &__column {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #0000001a;
+  }
+  &__title {
+    margin: 0;
+    font-size: 22px;
+    line-height: 34px;
+    color: #0189d1;
+  }
+  &__article {
+    &__title {
+      margin: 0;
+      margin-top: 18px;
+      font-size: 40px;
+      line-height: 40px;
+      letter-spacing: -0.36px;
+    }
+
+    &__parag {
+      margin: 0;
+      margin-top: 18px;
+      font-size: 24px;
+      line-height: 34px;
+    }
+
+    &__button {
+      margin-top: 30px;
+      display: block;
+      width: 160px;
+      height: 48px;
+      background-color: #3040c4;
+      border-radius: 2px;
+      line-height: 13px;
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      border: none;
+    }
+  }
+
+  &__block-image {
+    margin-top: 40px;
+  }
+  &__description {
+    padding: 50px 15px 0px 15px;
+  }
+
+  &__image {
+    &-text {
+      margin: 0;
+      margin-top: 18px;
+      text-align: center;
+      font-size: 14px;
+      line-height: 22px;
+      color: #2b292d99;
+    }
+  }
+  &__facilities {
+    margin-top: 30px;
+    &-text {
+      margin: 0;
+      font-size: 18px;
+      line-height: 26px;
+      letter-spacing: 0.1px;
+    }
+    &-link {
+      font-size: 18px;
+      line-height: 26px;
+      font-weight: 700;
+      color: #3040c4;
+    }
+    &-list {
+      padding: 0px 15px 50px 15px;
+    }
+  }
+}
+@media screen and (min-width: 400px) {
+  .communication {
+    display: flex;
+    flex-direction: column;
+    padding: 110px 130px;
+    &__column {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 26px;
+      border-bottom: 1px solid #0000001a;
+    }
+    &__description {
+      padding: 0;
+      width: 460px;
+      border: none;
+    }
+    &__title {
+      margin-top: 13px;
+    }
+    &__article {
+      &__title {
+        margin-top: 24px;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -0.5px;
+      }
+      &__parag {
+        margin-top: 30px;
+      }
+      &__button {
+        margin-top: 40px;
+      }
+    }
+    &__block-image {
+      margin-top: 0;
+      margin-right: 63px;
+    }
+    &__image {
+      width: 425px;
+      height: 425px;
+      &-text {
+        margin-top: 15px;
+      }
+    }
+    &__facilities {
+      margin-top: 40px;
+      margin-right: 30px;
+      width: 360px;
+      &:last-child {
+        margin-right: 0;
+      }
+      &-list {
+        padding: 0;
+        display: flex;
+      }
+    }
+  }
+}

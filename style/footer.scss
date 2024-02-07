@@ -1,0 +1,250 @@
+.bottom-section {
+  display: flex;
+  margin-top: auto;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  &__block {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e3e3e3;
+  }
+  &-description {
+    display: inline-block;
+    &__text {
+      display: none;
+    }
+  }
+
+  &-logo {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    &__text {
+      width: 290px;
+      margin-left: 15px;
+      text-align: center;
+    }
+
+    &__name {
+      display: inline-block;
+      font-size: 20px;
+      line-height: 25px;
+      font-weight: 700;
+      color: #000;
+    }
+    &__description {
+      display: inline-block;
+      font-size: 18px;
+      line-height: 25px;
+      color: #2b292d;
+      opacity: 0.6;
+    }
+
+    &__image {
+      margin: auto;
+      height: 60px;
+      width: 60px;
+    }
+  }
+  &__app {
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  &-links {
+    width: 100%;
+    margin-bottom: 19px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__line {
+    display: none;
+  }
+
+  &-terms {
+    width: 180px;
+    display: flex;
+    margin-left: 15px;
+    justify-content: space-between;
+    &__item {
+      text-decoration: none;
+      font-size: 14px;
+      color: #2b292d99;
+      line-height: 22px;
+    }
+  }
+  &__social-links {
+    margin-left: 15px;
+    margin-top: 30px;
+
+    &_twitter {
+      margin-right: 20px;
+      width: 21px;
+      height: 16px;
+    }
+    &_facebook {
+      margin-right: 20px;
+      width: 18px;
+      height: 17px;
+    }
+    &_linked-in {
+      margin-right: 2px;
+      width: 18px;
+      height: 17px;
+    }
+  }
+}
+.additional {
+  &__link {
+    text-decoration: none;
+    color: #2b292d99;
+  }
+  &__product {
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+  }
+  &__company {
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+  }
+  &-nav {
+    display: flex;
+    flex-direction: column;
+    &__column {
+      width: 290px;
+      height: 200px;
+      margin-top: 30px;
+      margin-left: 15px;
+    }
+    &__list {
+      height: 175px;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      &:last-child {
+        height: 136px;
+      }
+      &_item {
+        font-size: 18px;
+        line-height: 30px;
+        color: #2b292d;
+        opacity: 0.6;
+      }
+    }
+  }
+}
+.useful-links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1400px) {
+  .footer {
+    width: 1400px;
+    &__block {
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+    &-description {
+      &__text {
+        display: block;
+        width: 360px;
+        margin-top: 26px;
+        font-size: 18px;
+        line-height: 26px;
+        color: #2b292d;
+        opacity: 0.6;
+      }
+    }
+    &-logo {
+      width: 299px;
+      height: 60px;
+      margin-top: 43px;
+      &__text {
+        position: absolute;
+        margin-left: 75px;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+      }
+
+      &__image {
+        margin: 0;
+      }
+    }
+    &__app {
+      display: inline-block;
+      margin-top: 25px;
+      margin-bottom: 59px;
+      padding: 0;
+    }
+
+    &-links {
+      width: 1140px;
+      flex-direction: row;
+      margin: 0;
+      margin: auto;
+      height: 50px;
+    }
+
+    &__line {
+      display: inline;
+      margin: 0;
+      padding: 0;
+      border: 0.5px solid #2b292d;
+      border-right: none;
+      border-left: none;
+      border-bottom: none;
+      opacity: 0.1;
+    }
+
+    &-terms__item {
+      font-size: 14px;
+      line-height: 50px;
+    }
+
+    &__social-links {
+      margin: 0;
+      margin-left: auto;
+      line-height: 50px;
+    }
+  }
+  .additional {
+    &-nav {
+      flex-direction: row;
+      margin-top: 60px;
+      margin-left: 126px;
+      margin-right: 226px;
+      height: 231px;
+      &__column {
+        margin: 0;
+      }
+      &__list {
+        width: 265px;
+        height: 185px;
+        &:last-child {
+          height: 185px;
+        }
+      }
+    }
+  }
+  .useful-links {
+    width: 1140px;
+    margin: auto;
+    flex-direction: row;
+  }
+}
