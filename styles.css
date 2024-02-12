@@ -1,3 +1,7 @@
+.top-section {
+  background-color: #f3c6bd;
+}
+
 .header {
   width: 100%;
   height: 64px;
@@ -23,13 +27,15 @@
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
 }
 
-.top-section {
-  background-color: #f3c6bd;
-}
-
 .logo {
   width: 100%;
   display: flex;
+}
+.logo__image {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  margin: 8px 13px 8px 15px;
 }
 .logo__text {
   position: absolute;
@@ -48,12 +54,6 @@
 .logo__description {
   display: none;
 }
-.logo__image {
-  width: 48px;
-  height: 48px;
-  display: flex;
-  margin: 8px 13px 8px 15px;
-}
 
 .navigation {
   display: none;
@@ -64,6 +64,27 @@
     width: 1400px;
     padding-top: 39px;
     margin: auto;
+  }
+  .header {
+    position: relative;
+    width: 1140px;
+    margin: auto;
+    background-color: #f3c6bd;
+  }
+  .header__button {
+    display: none;
+  }
+  .header__action {
+    display: block;
+    width: 160px;
+    height: 48px;
+    background-color: #3040c4;
+    border-radius: 2px;
+    line-height: 13px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
   }
   .logo {
     width: 299px;
@@ -95,41 +116,9 @@
     height: 60px;
     margin: 0;
   }
-  .header {
-    position: relative;
-    width: 1140px;
-    margin: auto;
-    background-color: #f3c6bd;
-  }
-  .header__button {
-    display: none;
-  }
-  .header__action {
-    display: block;
-    width: 160px;
-    height: 48px;
-    background-color: #3040c4;
-    border-radius: 2px;
-    line-height: 13px;
-    font-size: 18px;
-    font-weight: 700;
-    color: #fff;
-    border: none;
-  }
   .navigation {
     display: block;
     margin-left: auto;
-  }
-  .navigation__arrow {
-    width: 8px;
-    height: 8px;
-    display: inline-block;
-    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
-    margin-top: 19px;
-    margin-left: 11px;
-    margin-right: 56px;
-    background-repeat: no-repeat;
-    background-size: contain;
   }
   .navigation__item {
     display: inline-block;
@@ -149,6 +138,17 @@
     color: #2b292d;
     font-weight: 700;
   }
+  .navigation__arrow {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
+    margin-top: 19px;
+    margin-left: 11px;
+    margin-right: 56px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
 .headline {
   display: flex;
@@ -164,6 +164,12 @@
   font-weight: 700;
   letter-spacing: -0.31px;
 }
+.headline__discription {
+  width: 290px;
+  margin: 0px 15px 0px 15px;
+  font-size: 24px;
+  line-height: 34px;
+}
 .headline__button {
   width: 290px;
   margin: 0px 15px 0px 15px;
@@ -175,12 +181,6 @@
   font-weight: 700;
   color: #fff;
   border: none;
-}
-.headline__discription {
-  width: 290px;
-  margin: 0px 15px 0px 15px;
-  font-size: 24px;
-  line-height: 34px;
 }
 .headline__banner {
   position: relative;
@@ -216,10 +216,6 @@
     position: absolute;
     z-index: 1;
   }
-  .headline__button {
-    width: 160px;
-    margin: 0;
-  }
   .headline__head {
     width: 754px;
     height: 165px;
@@ -233,6 +229,10 @@
     margin-top: 34px;
     width: 456px;
     height: 102px;
+  }
+  .headline__button {
+    width: 160px;
+    margin: 0;
   }
   .headline__banner {
     margin: 0;
@@ -354,13 +354,18 @@
   flex-direction: column;
   padding-bottom: 105px;
 }
+.features__left-decoration {
+  position: absolute;
+  height: 166px;
+  left: -130px;
+  top: 258px;
+}
+.features__banner {
+  position: absolute;
+  right: -130px;
+}
 .features__column {
   width: 460px;
-}
-.features__line {
-  margin: 0;
-  color: #2b292d;
-  opacity: 0.15;
 }
 .features__subtitle {
   margin: 0;
@@ -375,24 +380,16 @@
   line-height: 56px;
   letter-spacing: 0.5px;
 }
+.features__line {
+  margin: 0;
+  color: #2b292d;
+  opacity: 0.15;
+}
 .features__description {
   margin: 0;
   margin-top: 30px;
   font-size: 24px;
   line-height: 34px;
-}
-.features__icon {
-  margin-right: 15px;
-}
-.features__left-decoration {
-  position: absolute;
-  height: 166px;
-  left: -130px;
-  top: 258px;
-}
-.features__banner {
-  position: absolute;
-  right: -130px;
 }
 .features__block {
   display: flex;
@@ -419,6 +416,9 @@
   line-height: 26px;
   height: 70px;
 }
+.features__icon {
+  margin-right: 15px;
+}
 
 @media screen and (max-width: 1400px) {
   .features {
@@ -427,29 +427,6 @@
 }
 .resp-features {
   width: 100%;
-}
-.resp-features__image {
-  margin-top: 30px;
-}
-.resp-features__article__title {
-  margin: 0;
-  margin-top: 17px;
-  font-size: 40px;
-  line-height: 40px;
-}
-.resp-features__article__parag {
-  font-size: 24px;
-  line-height: 34px;
-  margin: 0;
-  margin-top: 15px;
-}
-.resp-features__article__last-parag {
-  width: 290px;
-  text-align: center;
-  margin: 0;
-  margin-top: 19px;
-  font-size: 14px;
-  line-height: 22px;
 }
 .resp-features__item {
   width: 100%;
@@ -471,6 +448,29 @@
 }
 .resp-features__item_title:first-child {
   margin-top: 48px;
+}
+.resp-features__article__title {
+  margin: 0;
+  margin-top: 17px;
+  font-size: 40px;
+  line-height: 40px;
+}
+.resp-features__article__parag {
+  font-size: 24px;
+  line-height: 34px;
+  margin: 0;
+  margin-top: 15px;
+}
+.resp-features__article__last-parag {
+  width: 290px;
+  text-align: center;
+  margin: 0;
+  margin-top: 19px;
+  font-size: 14px;
+  line-height: 22px;
+}
+.resp-features__image {
+  margin-top: 30px;
 }
 
 @media screen and (min-width: 1400px) {
@@ -522,11 +522,6 @@
   font-size: 20px;
   line-height: 28px;
 }
-.inbox__icon {
-  width: 40px;
-  height: 40px;
-  margin-top: 2px;
-}
 .inbox__contact {
   display: flex;
   margin-top: 26px;
@@ -545,6 +540,11 @@
   line-height: 22px;
   margin: 0;
   color: rgba(43, 41, 45, 0.6);
+}
+.inbox__icon {
+  width: 40px;
+  height: 40px;
+  margin-top: 2px;
 }
 
 @media screen and (min-width: 1400px) {

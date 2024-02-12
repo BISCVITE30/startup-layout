@@ -10,28 +10,28 @@
 @import 'footer.scss';
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html {
-  font-family: 'Work Sans', sans-serif;
-  min-height: 100%;
-  color: #2b292d;
+    font-family: 'Work Sans', sans-serif;
+    min-height: 100%;
+    color: #2b292d;
 }
 
 .page {
-  width: 100%;
+    width: 100%;
 }
 
 @media screen and (min-width: 1400px) {
-  html {
-    max-width: 100%;
-  }
-  .page {
-    width: 1400px;
-    min-height: 100vh;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-  }
+    html {
+        max-width: 100%;
+    }
+    .page {
+        width: 1400px;
+        min-height: 100vh;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
 }
