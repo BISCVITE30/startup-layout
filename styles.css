@@ -7,6 +7,7 @@
   height: 64px;
   background-color: #fff;
   display: flex;
+  margin-bottom: 35px;
 }
 .header__action {
   display: none;
@@ -155,7 +156,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 35px 0px;
+  padding-bottom: 35px;
 }
 .headline__head {
   margin: 0px 15px 24px 15px;
