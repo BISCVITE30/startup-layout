@@ -28,6 +28,7 @@
         font-weight: 700;
         color: #fff;
         border: none;
+        cursor: pointer;
     }
 
 
@@ -53,9 +54,10 @@
     line-height: 13px;
     font-weight: 700;
     color: #3040c4;
+    cursor: pointer;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 400px) {
     .headline {
         flex-direction: row;
         width: 1140px;

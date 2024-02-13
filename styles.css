@@ -19,6 +19,7 @@
   border: none;
   border-left: 1px solid rgba(43, 41, 45, 0.1490196078);
   background-color: transparent;
+  cursor: pointer;
 }
 .header__button-menu {
   display: inline-block;
@@ -59,7 +60,7 @@
   display: none;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 400px) {
   .top-section {
     width: 1400px;
     padding-top: 39px;
@@ -69,6 +70,7 @@
     position: relative;
     width: 1140px;
     margin: auto;
+    margin-bottom: 75px;
     background-color: #f3c6bd;
   }
   .header__button {
@@ -85,6 +87,7 @@
     font-weight: 700;
     color: #fff;
     border: none;
+    cursor: pointer;
   }
   .logo {
     width: 299px;
@@ -181,6 +184,7 @@
   font-weight: 700;
   color: #fff;
   border: none;
+  cursor: pointer;
 }
 .headline__banner {
   position: relative;
@@ -203,9 +207,10 @@
   line-height: 13px;
   font-weight: 700;
   color: #3040c4;
+  cursor: pointer;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 400px) {
   .headline {
     flex-direction: row;
     width: 1140px;
@@ -280,7 +285,7 @@
   font-weight: 700;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 400px) {
   .about {
     width: 1400px;
     display: flex;
@@ -326,7 +331,7 @@
   filter: brightness(0);
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 400px) {
   .customers {
     width: 1140px;
     margin: auto;
@@ -418,9 +423,10 @@
 }
 .features__icon {
   margin-right: 15px;
+  height: 24px;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 400px) {
   .features {
     display: none;
   }
@@ -473,7 +479,7 @@
   margin-top: 30px;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 400px) {
   .resp-features {
     display: none;
   }
@@ -547,7 +553,7 @@
   margin-top: 2px;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 400px) {
   .inbox {
     display: flex;
     padding: 0;
@@ -674,7 +680,7 @@
   font-weight: 700;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 400px) {
   .audience {
     padding: 110px 130px;
     display: flex;
@@ -789,7 +795,7 @@
   padding: 0px 15px 50px 15px;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 400px) {
   .communication {
     display: flex;
     flex-direction: column;
@@ -992,7 +998,7 @@
   flex-direction: column;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 400px) {
   .footer {
     width: 1400px;
   }
@@ -1093,7 +1099,7 @@ html {
   width: 100%;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 400px) {
   html {
     max-width: 100%;
   }

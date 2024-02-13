@@ -71,10 +71,11 @@
     }
     &__icon {
         margin-right: 15px;
+        height: 24px;
     }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 400px) {
     .features {
         display: none;
     }
