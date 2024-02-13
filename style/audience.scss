@@ -37,6 +37,7 @@
         font-weight: 700;
         color: #fff;
         border: none;
+        cursor: pointer;
         &s {
             margin-top: 30px;
             margin-bottom: 40px;
@@ -53,6 +54,7 @@
             line-height: 13px;
             font-weight: 700;
             color: #3040c4;
+            cursor: pointer;
         }
     }
     &__user-card {

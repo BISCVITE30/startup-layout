@@ -637,6 +637,7 @@
   font-weight: 700;
   color: #fff;
   border: none;
+  cursor: pointer;
 }
 .audience__buttons {
   margin-top: 30px;
@@ -654,6 +655,7 @@
   line-height: 13px;
   font-weight: 700;
   color: #3040c4;
+  cursor: pointer;
 }
 .audience__user-card {
   width: 290px;
@@ -758,6 +760,7 @@
   font-weight: 700;
   color: #fff;
   border: none;
+  cursor: pointer;
 }
 .communication__block-image {
   margin-top: 40px;
