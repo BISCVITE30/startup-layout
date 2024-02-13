@@ -1,56 +1,60 @@
 .resp-features {
+  width: 100%;
+  &__item {
     width: 100%;
-    &__item {
-        width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-bottom: 40px;
-        border-bottom: 1px solid #e3e3e3;
-        &:last-child {
-            border-bottom: none;
-            padding-bottom: 50px;
-        }
-        &_title {
-            margin: 0;
-            margin-top: 40px;
-            color: #009b4d;
-            font-size: 22px;
-            line-height: 34px;
-            &:first-child {
-                margin-top: 48px;
-            }
-        }
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e3e3e3;
+    &:last-child {
+      border-bottom: none;
+      padding-bottom: 50px;
     }
-    &__article {
-      &__title {
-        margin: 0;
-        margin-top: 17px;
-        font-size: 40px;
-        line-height: 40px;
+
+    &-title {
+      margin: 0;
+      margin-top: 40px;
+      color: #009b4d;
+      font-size: 22px;
+      line-height: 34px;
+      &:first-child {
+        margin-top: 48px;
       }
-      &__parag {
-        font-size: 24px;
-        line-height: 34px;
-        margin: 0;
-        margin-top: 15px;
-      }
-      
-      &__last-parag {
-        width: 290px;
-        text-align: center;
-        margin: 0;
-        margin-top: 19px;
-        font-size: 14px;
-        line-height: 22px;
-      }
-    }
-    &__image {
-        margin-top: 30px;
     }
   }
-  
-  @media screen and (min-width: 1400px) {
-    .resp-features {
-        display: none;
+
+  &__article {
+    &-title {
+      margin: 0;
+      margin-top: 17px;
+      font-size: 40px;
+      line-height: 40px;
     }
+
+    &-parag {
+      font-size: 24px;
+      line-height: 34px;
+      margin: 0;
+      margin-top: 15px;
+    }
+
+    &_last-parag {
+      width: 290px;
+      text-align: center;
+      margin: 0;
+      margin-top: 19px;
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+
+  &__image {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .resp-features {
+    display: none;
+  }
 }
