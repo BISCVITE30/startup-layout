@@ -1,4 +1,4 @@
-# Price Card Project
+# Startup Layout
 
 ## [Site link](https://biscvite30.github.io/startup-layout/)
 
