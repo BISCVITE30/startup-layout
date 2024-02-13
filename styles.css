@@ -60,7 +60,7 @@
   display: none;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 1400px) {
   .top-section {
     width: 1400px;
     padding-top: 39px;
@@ -210,7 +210,7 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 1400px) {
   .headline {
     flex-direction: row;
     width: 1140px;
@@ -285,7 +285,7 @@
   font-weight: 700;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 1400px) {
   .about {
     width: 1400px;
     display: flex;
@@ -331,7 +331,7 @@
   filter: brightness(0);
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 1400px) {
   .customers {
     width: 1140px;
     margin: auto;
@@ -426,7 +426,7 @@
   height: 24px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1400px) {
   .features {
     display: none;
   }
@@ -479,7 +479,7 @@
   margin-top: 30px;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 1400px) {
   .resp-features {
     display: none;
   }
@@ -553,7 +553,7 @@
   margin-top: 2px;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 1400px) {
   .inbox {
     display: flex;
     padding: 0;
@@ -682,7 +682,7 @@
   font-weight: 700;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 1400px) {
   .audience {
     padding: 110px 130px;
     display: flex;
@@ -798,7 +798,7 @@
   padding: 0px 15px 50px 15px;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 1400px) {
   .communication {
     display: flex;
     flex-direction: column;
@@ -1001,7 +1001,7 @@
   flex-direction: column;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 1400px) {
   .footer {
     width: 1400px;
   }
@@ -1099,10 +1099,11 @@ html {
 }
 
 .page {
-  width: 100%;
+  width: 320px;
+  margin: auto;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 1400px) {
   html {
     max-width: 100%;
   }
