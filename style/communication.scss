@@ -11,37 +11,6 @@
     color: #0189d1;
   }
 
-  &__article {
-    &-title {
-      margin: 0;
-      margin-top: 18px;
-      font-size: 40px;
-      line-height: 40px;
-      letter-spacing: -0.36px;
-    }
-
-    &-parag {
-      margin: 0;
-      margin-top: 18px;
-      font-size: 24px;
-      line-height: 34px;
-    }
-
-    &-button {
-      margin-top: 30px;
-      display: block;
-      width: 160px;
-      height: 48px;
-      background-color: #3040c4;
-      border-radius: 2px;
-      line-height: 13px;
-      font-size: 18px;
-      font-weight: 700;
-      color: #fff;
-      border: none;
-    }
-  }
-
   &__block-image {
     margin-top: 40px;
   }
@@ -52,9 +21,9 @@
 
   &__image {
     width: 290px;
+
     &-text {
-      margin: 0;
-      margin-top: 18px;
+      margin: 18px 0px 0px;
       text-align: center;
       font-size: 14px;
       line-height: 22px;
@@ -62,8 +31,39 @@
     }
   }
 }
+
+.communication-article {
+  &__title {
+    margin: 18px 0px 0px;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.36px;
+  }
+
+  &__parag {
+    margin: 18px 0px 0px;
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  &__button {
+    margin-top: 30px;
+    display: block;
+    width: 160px;
+    height: 48px;
+    background-color: #3040c4;
+    border-radius: 2px;
+    line-height: 13px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+  }
+}
+
 .facilities {
   margin-top: 30px;
+
   &__text {
     margin: 0;
     font-size: 18px;
@@ -88,6 +88,7 @@
     display: flex;
     flex-direction: column;
     padding: 110px 130px;
+
     &__column {
       display: flex;
       justify-content: space-between;
@@ -105,40 +106,26 @@
       margin-top: 13px;
     }
 
-    &__article {
-      &__title {
-        margin-top: 24px;
-        font-size: 56px;
-        line-height: 56px;
-        letter-spacing: -0.5px;
-      }
-
-      &__parag {
-        margin-top: 30px;
-      }
-
-      &__button {
-        margin-top: 40px;
-      }
-    }
-
     &__block-image {
-      margin-top: 0;
-      margin-right: 63px;
+      margin: 0 63px 0 0;
     }
 
     &__image {
       width: 425px;
       height: 425px;
+
       &-text {
         margin-top: 15px;
       }
     }
   }
+
   .facilities {
+    margin: 40px 30px 0 0;
     margin-top: 40px;
     margin-right: 30px;
     width: 360px;
+
     &:last-child {
       margin-right: 0;
     }
@@ -146,6 +133,23 @@
     &__list {
       padding: 0;
       display: flex;
+    }
+  }
+
+  .communication-article {
+    &__title {
+      margin-top: 24px;
+      font-size: 56px;
+      line-height: 56px;
+      letter-spacing: -0.5px;
+    }
+
+    &__parag {
+      margin-top: 30px;
+    }
+
+    &__button {
+      margin-top: 40px;
     }
   }
 }

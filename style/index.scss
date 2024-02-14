@@ -18,9 +18,11 @@ html {
   min-height: 100%;
   color: #2b292d;
 }
+
 button {
   cursor: pointer;
 }
+
 .page {
   width: 320px;
   margin: auto;
@@ -30,6 +32,7 @@ button {
   html {
     max-width: 100%;
   }
+  
   .page {
     width: 1400px;
     min-height: 100vh;

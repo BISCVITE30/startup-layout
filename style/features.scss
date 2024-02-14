@@ -30,8 +30,7 @@
   }
 
   &__title {
-    margin: 0;
-    margin-top: 24px;
+    margin: 24px 0 0;
     font-size: 56px;
     line-height: 56px;
     letter-spacing: 0.5px;
@@ -44,8 +43,7 @@
   }
 
   &__description {
-    margin: 0;
-    margin-top: 30px;
+    margin: 30px 0 0;
     font-size: 24px;
     line-height: 34px;
   }
@@ -55,22 +53,22 @@
     align-items: center;
     padding-top: 20px;
     padding-bottom: 22px;
-    &-mod {
+    
+    &_mod {
       display: flex;
       margin-top: 42px;
       color: #3142c6;
       cursor: pointer;
     }
 
-    &-subtitle {
+    &__subtitle {
       margin: 0;
       font-size: 22px;
       line-height: 28px;
     }
 
-    &-text {
-      margin: 0;
-      margin-top: 10px;
+    &__text {
+      margin: 10px 0 0;
       border-bottom: 3px solid #3142c6;
       font-size: 18px;
       line-height: 26px;

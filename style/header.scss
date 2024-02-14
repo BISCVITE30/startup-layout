@@ -8,6 +8,7 @@
   background-color: #fff;
   display: flex;
   margin-bottom: 35px;
+
   &__action {
     display: none;
   }
@@ -20,7 +21,8 @@
     border: none;
     border-left: 1px solid #2b292d26;
     background-color: transparent;
-    &-menu {
+
+    &_mobile {
       display: inline-block;
       width: 18px;
       height: 13px;
@@ -32,6 +34,7 @@
 .logo {
   width: 100%;
   display: flex;
+
   &__image {
     width: 48px;
     height: 48px;
@@ -67,16 +70,16 @@
 @media screen and (min-width: 1400px) {
   .top-section {
     width: 1400px;
-    padding-top: 39px;
+    padding: 39px 0px 0px;
     margin: auto;
   }
 
   .header {
     position: relative;
     width: 1140px;
-    margin: auto;
-    margin-bottom: 75px;
+    margin: auto auto 75px;
     background-color: #f3c6bd;
+
     &__button {
       display: none;
     }
@@ -99,6 +102,7 @@
     width: 299px;
     height: 60px;
     padding-top: 2px;
+
     &__description {
       display: inline-block;
       font-size: 18px;
@@ -132,16 +136,16 @@
   .navigation {
     display: block;
     margin-left: auto;
+
     &__item {
       display: inline-block;
       height: 25px;
       font-size: 18px;
       line-height: 25px;
-      margin-top: 7px;
-      margin-right: 45px;
-      margin-bottom: 30px;
+      margin: 7px 45px 30px 0px;
       color: #000;
       text-decoration: none;
+
       &_last {
         margin-right: 0;
       }
@@ -157,9 +161,7 @@
       height: 8px;
       display: inline-block;
       background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
-      margin-top: 19px;
-      margin-left: 11px;
-      margin-right: 56px;
+      margin: 19px 56px 0px 11px;
       background-repeat: no-repeat;
       background-size: contain;
     }
