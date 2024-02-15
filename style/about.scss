@@ -2,7 +2,7 @@
   width: 100%;
   background-color: #f4f5f7;
 
-  &__block {
+  &__container {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -19,13 +19,14 @@
       height: 136px;
     }
 
-    &-text {
-      font-size: 22px;
-      line-height: 32px;
-      margin: 0;
-    }
   }
-
+  
+  &__description-text {
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0;
+  }
+  
   &__head {
     margin: 0;
     line-height: 33px;
@@ -40,7 +41,7 @@
     display: flex;
     margin: auto;
 
-    &__block {
+    &__container {
       flex-direction: row;
       width: 1140px;
       margin: 77px auto 76px;
@@ -51,7 +52,7 @@
       width: 555px;
       height: 102px;
       margin: 0;
-      
+
       &:last-child {
         margin: 0;
         height: 102px;

@@ -21,14 +21,14 @@
 
   &__image {
     width: 290px;
+  }
 
-    &-text {
-      margin: 18px 0px 0px;
-      text-align: center;
-      font-size: 14px;
-      line-height: 22px;
-      color: #2b292d99;
-    }
+  &__image-text {
+    margin: 18px 0px 0px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+    color: #2b292d99;
   }
 }
 
@@ -113,10 +113,10 @@
     &__image {
       width: 425px;
       height: 425px;
-
-      &-text {
-        margin-top: 15px;
-      }
+    }
+    
+    &__image-text {
+      margin-top: 15px;
     }
   }
 
